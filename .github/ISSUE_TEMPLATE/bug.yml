@@ -1,0 +1,41 @@
+name: 🐛 Bug
+description: Quelque chose ne marche pas comme prévu
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de me signaler ça. Plus tu es précis, plus je corrige vite.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Qu'est-ce qui s'est passé ?
+      description: Ce que tu as fait, ce que tu attendais, ce qui est arrivé à la place.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Comment reproduire le problème ?
+      placeholder: |
+        1. Aller sur…
+        2. Cliquer sur…
+        3. Voir l'erreur
+  - type: input
+    id: version
+    attributes:
+      label: Version de Tenko
+      description: Visible dans l'app ou sur la page des releases.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Où as-tu rencontré le problème ?
+      options:
+        - Navigateur (ordinateur)
+        - Navigateur (mobile)
+        - Autre
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Captures d'écran
+      description: Tu peux glisser-déposer des images directement ici.

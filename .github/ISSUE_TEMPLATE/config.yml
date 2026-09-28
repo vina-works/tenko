@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question ou retour général
+    url: https://github.com/vina-works/tenko/discussions
+    about: Pour les questions, les avis vagues ou les discussions ouvertes

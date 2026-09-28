@@ -1,0 +1,23 @@
+name: 💡 Idée / fonctionnalité
+description: Proposer une amélioration ou une nouvelle fonctionnalité
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Quel problème veux-tu résoudre ?
+      description: Décris la situation qui te gêne aujourd'hui, pas la solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Comment imagines-tu la solution ?
+  - type: dropdown
+    id: importance
+    attributes:
+      label: À quel point c'est important pour toi ?
+      options:
+        - Un plus, pas urgent
+        - Ça me ferait gagner du temps
+        - Ça me bloque aujourd'hui
